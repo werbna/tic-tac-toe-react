@@ -1,4 +1,3 @@
-import { on } from "events";
 import { useState } from "react";
 
 export default function Player({ initialName, symbol, isActive, onChangeName }) {
@@ -18,13 +17,11 @@ export default function Player({ initialName, symbol, isActive, onChangeName }) 
   }
 
   let editablePlayerName = <span className="player-name">{playerName}</span>;
-  // let btnCaption = 'Edit;'
 
   if (isEditing) {
     editablePlayerName = (
       <input type="text" value={playerName} onChange={handleChange} required />
     )
-    // btnCaption = 'Save';
   }
 
   return (

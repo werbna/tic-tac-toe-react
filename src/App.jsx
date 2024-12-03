@@ -28,8 +28,6 @@ function App() {
   });
 
   const [gameTurns, setGameTurns] = useState([]);
-  // const [winner, setWinner] = useState(false);
-  // const [activePlayer, setActivePlayer] = useState('X');
 
   const activePlayer = deriveActivePlayer(gameTurns);
 
@@ -60,7 +58,6 @@ function App() {
   const hasDraw = gameTurns.length === 9 && !winner;
 
   function handleSelectSquare(rowIndex, colIndex) {
-    // setActivePlayer((curActivePlayer) => curActivePlayer === 'X' ? 'O' : 'X');
     setGameTurns((prevTurns) => {
       let currentPlayer = deriveActivePlayer(prevTurns);
 
