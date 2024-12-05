@@ -1,7 +1,6 @@
 {
   "name": "tic-tac-toe-react",
   "homepage": "https://werbna.github.io/tic-tac-toe-react/",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
