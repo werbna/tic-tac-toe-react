@@ -12,7 +12,7 @@ A fun and interactive **Tic Tac Toe** game built using **React.js**. Test your s
 --
 
 ## Demo  
-[Add a link to your deployed app or a GIF showcasing gameplay.]  
+[Live Version](https://werbna.github.io/tic-tac-toe-react/)  
 
 --
 
