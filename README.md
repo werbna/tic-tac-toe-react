@@ -5,6 +5,7 @@ A fun and interactive **Tic Tac Toe** game built using **React.js**. Test your s
 
 ## Technologies Used
 -React.js
+
 -CSS
 
 ## Features  
